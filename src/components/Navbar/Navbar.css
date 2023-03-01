@@ -1,0 +1,10 @@
+.nav-logo{
+    height: 32px;
+    width: 32px;
+    fill: #fff;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+  
+  
