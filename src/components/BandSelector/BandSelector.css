@@ -1,0 +1,147 @@
+:root{
+    --clr-black : #000000;
+    --clr-brown : #512627;
+    --clr-red : #CC0000;
+    --clr-orange : #D87347;
+    --clr-yellow : #E6C951;
+    --clr-green : #528F65;
+    --clr-blue : #0F5190;
+    --clr-violet : #6967CE;
+    --clr-grey : #7D7D7D;
+    --clr-white : #FFFFFF;
+    --clr-gold : #C08327;
+    --clr-silver : #BFBEBF;
+}
+
+.c-black{
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+}
+.c-black:hover{
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+.c-brown{
+    background-color: var(--clr-brown);
+    color: var(--clr-white);
+}
+.c-brown:hover{
+    background-color: var(--clr-brown);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+.c-red{
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+}
+.c-red:hover{
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+.c-orange{
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+}
+.c-orange:hover{
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+.c-yellow{
+    background-color: var(--clr-yellow);
+    color: var(--clr-black);
+}
+.c-yellow:hover{
+    background-color: var(--clr-yellow);
+    color: var(--clr-black);
+    cursor: pointer;
+}
+
+.c-green{
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+}
+.c-green:hover{
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+.c-blue{
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+}
+.c-blue:hover{
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+.c-violet{
+    background-color: var(--clr-violet);
+    color: var(--clr-white);
+}
+.c-violet:hover{
+    background-color: var(--clr-violet);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+.c-grey{
+    background-color: var(--clr-grey);
+    color: var(--clr-white);
+}
+.c-grey:hover{
+    background-color: var(--clr-grey);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+.c-white{
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+}
+.c-white:hover{
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+    cursor: pointer;
+}
+
+.c-gold{
+    background-color: var(--clr-gold);
+    color: var(--clr-black);
+}
+.c-gold:hover{
+    background-color: var(--clr-gold);
+    color: var(--clr-black);
+    cursor: pointer;
+}
+
+.c-silver{
+    background-color: var(--clr-silver);
+    color: var(--clr-black);
+}
+.c-silver:hover{
+    background-color: var(--clr-silver);
+    color: var(--clr-black);
+    cursor: pointer;
+}
+
+.dropdown{
+    width: 100%;
+}
+.dropdown-toggle{
+    width: 40%;
+}
+.dropdown-item{
+    min-width: 20vw;
+}
+
+@media(max-width: 768px) {
+    .dropdown-item{
+        min-width: 40vw;
+    }
+}

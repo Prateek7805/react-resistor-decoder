@@ -5,10 +5,9 @@
   overflow: hidden;
 }
 
-.content{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right:0;
-  overflow-y: scroll;
+
+
+.panel{
+  width : calc(100% - 0.5rem);
+  min-height: 60vh;
 }

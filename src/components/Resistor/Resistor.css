@@ -1,0 +1,60 @@
+.resistor-wrapper{
+    width : 100% !important;
+    height: 100% !important;
+}
+.resistor-w-l, .resistor-w-r{
+    display: flex;
+    height: 2vh;
+    width: 5%;
+    background-color: gray;
+    border: 1px solid black;
+}
+.resistor-p-l{
+    height:10vh;
+    width: 15%;
+    background-color: antiquewhite;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.resistor-p-c{
+    height: 7vh;
+    width: 30%;
+    background-color: antiquewhite;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.resistor-p-r{
+    height:10vh;
+    width: 15%;
+    background-color: antiquewhite;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.card-body{
+    position: relative;
+}
+.co{
+    outline: 1px solid green;
+}
+
+@media(max-width: 768px) {
+    .resistor-p-l{
+        height: 15vw;
+    }
+    .resistor-p-c{
+        height: 10vw;
+    }
+    .resistor-p-r{
+        height: 15vw;
+    }
+}
