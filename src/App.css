@@ -9,5 +9,5 @@
 
 .panel{
   width : calc(100% - 0.5rem);
-  min-height: 60vh;
+  min-height: 70vh;
 }

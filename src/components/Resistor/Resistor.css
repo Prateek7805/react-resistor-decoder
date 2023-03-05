@@ -4,15 +4,15 @@
 }
 .resistor-w-l, .resistor-w-r{
     display: flex;
-    height: 2vh;
+    height: 2.5vh;
     width: 5%;
     background-color: gray;
     border: 1px solid black;
 }
 .resistor-p-l{
-    height:10vh;
+    height: 12vh;
     width: 15%;
-    background-color: antiquewhite;
+    background-color: #E2C8A7;
     border-top-left-radius: 20%;
     border-bottom-left-radius: 20%;
     border-top-right-radius: 10%;
@@ -22,16 +22,16 @@
     border-bottom: 1px black solid;
 }
 .resistor-p-c{
-    height: 7vh;
+    height: 8vh;
     width: 30%;
-    background-color: antiquewhite;
+    background-color: #E2C8A7;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 .resistor-p-r{
-    height:10vh;
+    height:12vh;
     width: 15%;
-    background-color: antiquewhite;
+    background-color: #E2C8A7;
     border-top-right-radius: 20%;
     border-bottom-right-radius: 20%;
     border-top-left-radius: 10%;
@@ -46,6 +46,11 @@
 .co{
     outline: 1px solid green;
 }
+.band{
+    height: 100%;
+    width: 1vw;
+    background-color: brown;
+}
 
 @media(max-width: 768px) {
     .resistor-p-l{
@@ -56,5 +61,8 @@
     }
     .resistor-p-r{
         height: 15vw;
+    }
+    .band{
+        width: 2vw;
     }
 }

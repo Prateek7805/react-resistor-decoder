@@ -35,7 +35,9 @@ export default function BandSelector() {
         'blue',
         'violet',
         'grey',
-        'white'
+        'white',
+        'gold',
+        'silver'
     ];
     const band4 = [
         'brown',
