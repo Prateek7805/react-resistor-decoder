@@ -63,9 +63,9 @@ export default function Navbaar({dimension}) {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-           <Nav.Link onClick={handleBand}>4 bands</Nav.Link>
-           <Nav.Link onClick={handleBand}>5 bands</Nav.Link>
-           <Nav.Link onClick={handleBand}>6 bands</Nav.Link>
+           <Nav.Link href="#" onClick={handleBand}>4 bands</Nav.Link>
+           <Nav.Link href="#" onClick={handleBand}>5 bands</Nav.Link>
+           <Nav.Link href="#" onClick={handleBand}>6 bands</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Resistor Decode",
+  "name": "Resistor Decoder",
   "icons": [
     {
       "src": "favicon.svg",
