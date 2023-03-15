@@ -318,10 +318,14 @@ export default function BandSelector() {
     const setBandColor = (band, item)=>{
         var root = document.querySelector(':root');
         var rs = getComputedStyle(root);
+
         const color = rs.getPropertyValue(`--clr-${item.color}`);
         const hoverColor = rs.getPropertyValue(`--clr-hover-${item.color}`);
+        const textColor = rs.getPropertyValue(`--clr-text-${item.color}`);
+
         root.style.setProperty(`--clr-${band}`, color);
         root.style.setProperty(`--clr-hover-${band}`, hoverColor);
+        root.style.setProperty(`--clr-text-${band}`, textColor);
         console.log(color);
         console.table(item);
 

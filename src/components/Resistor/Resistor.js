@@ -14,21 +14,31 @@ export default function Resistor() {
                 bands.band3.value === null) return;
             const [multiplier, unit] = bands.band3.value.split(' ');
             const mult = parseFloat(multiplier.substring(1));
+            
             const band1 = (bands.band1.value);
             const band2 = (bands.band2.value);
             const band3 = bands.band5.value;
             const tolerance = bands.band4.value ? bands.band4.value : "± 20%";
-            const band6 = bands.band6.value;
-            let text = `${parseInt(band1 + band2) * mult} ${unit} ${tolerance}`
+            const band6 = bands.band6.value ? bands.band6.value : "";
+            let result = parseInt(band1 + band2) * mult;
+            if(!Number.isInteger(result)){
+                result = result.toFixed(2);
+            }
+            let text = `${result} ${unit} ${tolerance}`
             if (numBands === 5 &&
                 band3 !== null) {
-
-                text = `${parseInt(band1 + band2 + band3) * mult} ${unit} ${tolerance}`;
+                let res = parseInt(band1 + band2 + band3) * mult;
+                if (!Number.isInteger(res)) {
+                    res = res.toFixed(2);
+                }
+                text = `${res} ${unit} ${tolerance}`;
             } else if (numBands === 6 &&
-                       band3 !== null &&
-                       band6 !== null) {
-
-                text = `${parseInt(band1 + band2 + band3) * mult} ${unit} ${tolerance} ${band6}`;
+                       band3 !== null) {
+                let res = parseInt(band1 + band2 + band3) * mult;
+                if (!Number.isInteger(res)) {
+                    res = res.toFixed(2);
+                }
+                text = `${res} ${unit} ${tolerance} ${band6}`;
             }
             return text;
         }

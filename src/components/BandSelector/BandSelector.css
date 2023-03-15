@@ -45,6 +45,13 @@
     --clr-band5 : #d8d8d8;
     --clr-band6 : #d8d8d8;
 
+    --clr-text-band1 : #000000;
+    --clr-text-band2 : #000000;
+    --clr-text-band3 : #000000;
+    --clr-text-band4 : #000000;
+    --clr-text-band5 : #000000;
+    --clr-text-band6 : #000000;
+
     --clr-hover-band1 : #dedede;
     --clr-hover-band2 : #dedede;
     --clr-hover-band3 : #dedede;
@@ -173,7 +180,7 @@
 
 .c-band1{
     background-color: var(--clr-band1);
-    color: var(--clr-black);
+    color: var(--clr-text-band1);
     cursor: pointer;
 }
 .c-band1:hover{
@@ -181,7 +188,7 @@
 }
 .c-band2{
     background-color: var(--clr-band2);
-    color: var(--clr-black);
+    color: var(--clr-text-band2);
     cursor: pointer;
 }
 .c-band2:hover{
@@ -189,7 +196,7 @@
 }
 .c-band3{
     background-color: var(--clr-band3);
-    color: var(--clr-black);
+    color: var(--clr-text-band3);
     cursor: pointer;
 }
 .c-band3:hover{
@@ -197,7 +204,7 @@
 }
 .c-band4{
     background-color: var(--clr-band4);
-    color: var(--clr-black);
+    color: var(--clr-text-band4);
     cursor: pointer;
 }
 .c-band4:hover{
@@ -205,7 +212,7 @@
 }
 .c-band5{
     background-color: var(--clr-band5);
-    color: var(--clr-black);
+    color: var(--clr-text-band5);
     cursor: pointer;
 }
 .c-band5:hover{
@@ -213,7 +220,7 @@
 }
 .c-band6{
     background-color: var(--clr-band6);
-    color: var(--clr-black);
+    color: var(--clr-text-band6);
     cursor: pointer;
 }
 .c-band6:hover{
