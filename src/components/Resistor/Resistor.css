@@ -1,3 +1,4 @@
+
 .resistor-wrapper{
     width : 100% !important;
     height: 100% !important;
@@ -13,10 +14,7 @@
     height: 12vh;
     width: 15%;
     background-color: #E2C8A7;
-    border-top-left-radius: 20%;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-radius: 15px;
     border-left: 1px black solid;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
@@ -32,10 +30,7 @@
     height:12vh;
     width: 15%;
     background-color: #E2C8A7;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-radius: 15px;
     border-right: 1px black solid;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
@@ -43,13 +38,30 @@
 .card-body{
     position: relative;
 }
-.co{
-    outline: 1px solid green;
+.w-100{
+    width: 100%;
 }
 .band{
     height: 100%;
     width: 1vw;
-    background-color: brown;
+}
+.band-r-1{
+    background-color: var(--clr-band1);
+}
+.band-r-2{
+    background-color: var(--clr-band2);
+}
+.band-r-3{
+    background-color: var(--clr-band3);
+}
+.band-r-4{
+    background-color: var(--clr-band4);
+}
+.band-r-5{
+    background-color: var(--clr-band5);
+}
+.band-r-6{
+    background-color: var(--clr-band6);
 }
 
 @media(max-width: 768px) {
