@@ -326,8 +326,7 @@ export default function BandSelector() {
         root.style.setProperty(`--clr-${band}`, color);
         root.style.setProperty(`--clr-hover-${band}`, hoverColor);
         root.style.setProperty(`--clr-text-${band}`, textColor);
-        console.log(color);
-        console.table(item);
+     
 
         setBands(prev=>{
             return {

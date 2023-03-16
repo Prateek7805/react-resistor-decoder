@@ -1,10 +1,35 @@
+:root {
+  --sc-width : 10px;
+  --sc-track-color : #444654;
+  --sc-track-hover-color : #797a85;
+}
 .App {
+  display: flex;
+  width: calc(100vw - var(--sc-width) -2px);
   min-height: 100vh;
-  min-width: 100vw;
-  position: relative;
-  overflow: hidden;
 }
 
+::-webkit-scrollbar {
+  width: var(--sc-width);
+}
+
+/* Track */
+.container-fluid::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.container-fluid::-webkit-scrollbar-thumb {
+  background-color: var(--sc-track-color);
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Handle on hover */
+.container-fluid::-webkit-scrollbar-thumb:hover {
+  background: var(--sc-track-hover-color); 
+  transform: scale(1.2);
+}
 
 
 .panel{

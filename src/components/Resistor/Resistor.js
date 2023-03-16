@@ -75,7 +75,7 @@ export default function Resistor() {
                     <div className='resistor-w-r'></div>
 
                 </div>
-                <p>{output}</p>
+                <Card.Text style={{fontSize: 20}}>{output}</Card.Text>
             </Card.Body>
 
         </>
