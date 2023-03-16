@@ -14,3 +14,5 @@ A light-weight THT leaded resistor color code decoder created using ReactJS.
 * Bootstrap 5
 * React-Bootstrap
 * Material UI
+
+### [Demo](https://resistor-decoder.netlify.app/)
