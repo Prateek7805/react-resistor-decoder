@@ -4,7 +4,7 @@ import BandSelector from '../BandSelector/BandSelector';
 import Resistor from '../Resistor/Resistor';
 import { useContext, useEffect, useState } from 'react';
 import { BandsNumNav } from '../Context/MainContext';
-
+import Footer from '../Footer';
 export default function Content({ height }) {
   const [cardHeight, setCardHeight] = useState(20);
   const {numBands, setNumBands} = useContext(BandsNumNav);
@@ -35,6 +35,7 @@ export default function Content({ height }) {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Navbaar dimension={[navHeight, setNavHeight]} />
       <Content height={navHeight}/>
+      
     </div>
   );
 }
